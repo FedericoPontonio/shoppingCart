@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../../E-POROBig.jpg';
+import homeImg from '../assets/E-POROBig.jpg';
 
 
 function Home() {
@@ -35,7 +35,7 @@ function Home() {
 
       <section style={styles.bannerSection}>
         <img
-          src="../../E-POROBig.jpg"
+          src={homeImg}
           alt="Store Banner"
           style={styles.bannerImage}
         />
