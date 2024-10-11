@@ -1,0 +1,32 @@
+.NavBar {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background-color: beige;
+    padding: 1vw;
+    margin: -0.5vw;
+}
+.rightsideNavBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 80px;
+}
+
+.amountInCart {
+    position: relative;
+    right: 20%;
+    bottom: 5%;
+    background-color: rgb(152, 248, 248);
+    width: 10%;
+    height: 30%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(166, 13, 13);
+    font-weight: 700;
+    text-decoration: dotted;
+}
